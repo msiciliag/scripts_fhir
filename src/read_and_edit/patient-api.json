@@ -1,0 +1,159 @@
+{
+    "id": "123d41e1-0f71-4e9f-8eb2-d1b1330201a6",
+    "meta": {
+        "versionId": "1.0"
+    },
+    "extension": [
+        {
+            "extension": [
+                {
+                    "url": "ombCategory",
+                    "valueCoding": {
+                        "code": "2054-5",
+                        "display": "Black or African American",
+                        "system": "urn:oid:2.16.840.1.113883.6.238"
+                    }
+                },
+                {
+                    "url": "text",
+                    "valueString": "Black or African American"
+                }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+            "extension": [
+                {
+                    "url": "ombCategory",
+                    "valueCoding": {
+                        "code": "2135-2",
+                        "display": "Hispanic or Latino",
+                        "system": "urn:oid:2.16.840.1.113883.6.238"
+                    }
+                },
+                {
+                    "url": "text",
+                    "valueString": "Hispanic or Latino"
+                }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+            "valueString": "Ramona980 Franco581"
+        },
+        {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+            "valueCode": "M"
+        },
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "masked"
+        }
+    ],
+    "address": [
+        {
+            "city": "Natick",
+            "country": "US",
+            "line": [
+                "[\"293 Douglas Ramp\"]"
+            ],
+            "period": {
+                "start": "1969-01-12T00:00:00+00:00"
+            },
+            "postalCode": "01999",
+            "state": "MA"
+        }
+    ],
+    "birthDate": "1969-01-12",
+    "communication": [
+        {
+            "language": {
+                "coding": [
+                    {
+                        "code": "es",
+                        "display": "Spanish",
+                        "system": "urn:ietf:bcp:47"
+                    }
+                ]
+            }
+        }
+    ],
+    "gender": "male",
+    "identifier": [
+        {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "123d41e1-0f71-4e9f-8eb2-d1b1330201a6"
+        },
+        {
+            "system": "http://hospital.smarthealthit.org",
+            "type": {
+                "coding": [
+                    {
+                        "code": "MR",
+                        "display": "Medical Record Number",
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                    }
+                ]
+            },
+            "value": "123d41e1-0f71-4e9f-8eb2-d1b1330201a6"
+        },
+        {
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "type": {
+                "coding": [
+                    {
+                        "code": "SS",
+                        "display": "Social Security Number",
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                    }
+                ]
+            },
+            "value": "999-50-6731"
+        },
+        {
+            "system": "urn:oid:2.16.840.1.113883.4.3.25",
+            "type": {
+                "coding": [
+                    {
+                        "code": "DL",
+                        "display": "Drivers License",
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                    }
+                ]
+            },
+            "value": "S99957478"
+        }
+    ],
+    "maritalStatus": {
+        "coding": [
+            {
+                "code": "M",
+                "display": "M",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+            }
+        ],
+        "text": "M"
+    },
+    "multipleBirthBoolean": false,
+    "name": [
+        {
+            "family": "Guti\u00c3\u00a9rrez115",
+            "given": [
+                "Hugo693"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "use": "official"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "use": "home",
+            "value": "555-914-6475"
+        }
+    ],
+    "resourceType": "Patient"
+}

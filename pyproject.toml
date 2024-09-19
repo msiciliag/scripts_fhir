@@ -1,0 +1,20 @@
+[project]
+name = "scripts_fhir"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Miguel Ángel Sicilia GarcÍa", email = "miguel.sicilia.garcia@in2ai.com"},
+]
+dependencies = [
+    "fhir-resources>=7.1.0",
+    "fhirclient>=4.2.1",
+    "python-jose>=3.3.0",
+    "jwcrypto>=1.5.6",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
